@@ -1,0 +1,67 @@
+button {
+    font-family: "Comic Sans MS";
+}
+
+h1 {
+    font-family: "Comics Sans MS";
+}
+
+body {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+iFrame { 
+    margin: 0;
+    padding: 0;
+    border-style: ridge;
+    border-width: 8px;
+    border-color: #fa741d;
+    width: value;
+    height: value;
+}
+
+#left {
+    position: absolute;
+    top: 5px;
+    bottom: 100px;
+    height: 300px;
+    width: 280px;
+}
+
+#right {
+    background-color: #46d419;
+    margin-top: 0px;
+    margin-left: 320px;
+    width: 250px;
+}
+
+#bottom {
+    background-color: #3f3;
+    border-style: ridge;
+    border-width: 8px;
+    border-color: #fa741d;
+    height: 70px;
+    margin-top: 73px;
+    /*margin-bottom: 5px;*/
+}
+
+#topBar {
+    position: absolute;
+    z-level: 5;
+    background-color: cyan;
+    margin-top: 31px;
+    margin-left: 70px;
+    height: 10px;
+    width: 80px;
+}
+
+#bottomBar {
+    background-color: red;
+    margin-top: 31px;
+    margin-left: 70px;
+    height: 10px;
+    width: 410px;
+}
