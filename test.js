@@ -1,7 +1,3 @@
-function hello() {
-    alert("hello");
-}
-
 if (localStorage.getItem("counter1") == "undefined") {
     var i = 0;
 } else {
@@ -9,9 +5,6 @@ if (localStorage.getItem("counter1") == "undefined") {
 }
 
 $(document).ready(function() {
-    $("#line").click(function() {
-        $(this).text("this is a test");
-    });
     $(this).click(function() {
         i = i + 1;
         localStorage.setItem("counter1", i);
